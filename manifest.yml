@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: iPhone6
+  host: iPhone6
+  disk_quota: 1024M
+  services:
+  - iPhone6-cloudantNoSQLDB
+  - iPhone6-iotf-service
